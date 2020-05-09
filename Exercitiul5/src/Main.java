@@ -10,10 +10,7 @@ public class Main {
 
     afisareCuvinte(text);
     literaPozitie3(text);
-
-
     }
-
     public static void afisareCuvinte(String text){
         String[] sirText = text.split(" ");
 
@@ -24,7 +21,6 @@ public class Main {
                 System.out.println(sirText[cursor]);
             }
         }
-
     }
     public static void literaPozitie3(String text){
         String[] sirText = text.split(" ");
